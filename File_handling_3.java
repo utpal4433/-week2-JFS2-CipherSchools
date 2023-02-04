@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class File_handling_3 {
     public static void main(String[] args) throws IOException {
-        FileWriter fw = new FileWriter("/Users/shivansh/Desktop/TestFile.txt",true);
+        FileWriter fw = new FileWriter("/Users/utpal/Desktop/TestFile.txt",true);
 
         fw.write("I am the earth\n");
         fw.write("I am the forest green\n");
